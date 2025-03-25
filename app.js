@@ -12,7 +12,7 @@ async function initializeAuth0() {
     try {
         const auth0 = await createAuth0Client({
         domain: 'dev-88odyes1z8kfjkq7.us.auth0.com', // e.g., 'dev-abc123.auth0.com'
-        clientId: 'JhKj76dGA4uPp7ESddA02mSjEjxxJUXb',
+        client_id: 'JhKj76dGA4uPp7ESddA02mSjEjxxJUXb',
         redirect_uri: window.location.origin,
         });
 
