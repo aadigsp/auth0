@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth0 Vanilla JS Example</title>
+    <style>
+        #user-info { margin-top: 20px; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Auth0 Vanilla JS Authentication</h1>
+    <button id="login">Login</button>
+    <button id="logout" style="display:none;">Logout</button>
+    <div id="user-info" style="display:none;">
+        <h3>User Profile:</h3>
+        <pre id="profile"></pre>
+    </div>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.20/auth0-spa-js.production.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
